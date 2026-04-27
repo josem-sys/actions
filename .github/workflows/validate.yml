@@ -1,0 +1,16 @@
+name: Validar Script
+
+on: [push] # Se activa al hacer push
+
+jobs:
+  lint: # Analiza el código en busca de fallos
+    rus-on: ubuntu-latest #Ejecuta el trabajo en un entonor limpio
+    steps:
+      - name: Descargar código
+        uses: actions/checkout@v4 # Descarga el repositorio action para analizarlo
+
+      - name: Instalar SellCheck
+        run: sudo apt-get install -y shellcheck #Instala el corrector de scripts
+
+      - name: Ejecutar ShellCheck
+        run: shellcheck script.sh #SI encuentra fallos los informa
