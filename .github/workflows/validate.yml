@@ -4,7 +4,7 @@ on: [push] # Se activa al hacer push
 
 jobs:
   lint: # Analiza el código en busca de fallos
-    rus-on: ubuntu-latest #Ejecuta el trabajo en un entonor limpio
+    runs-on: ubuntu-latest #Ejecuta el trabajo en un entonor limpio
     steps:
       - name: Descargar código
         uses: actions/checkout@v4 # Descarga el repositorio action para analizarlo
