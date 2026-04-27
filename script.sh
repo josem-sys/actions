@@ -1,3 +1,3 @@
 #!/bin/bash
-cho "Hola Mundo"
-cho "La fecha y hora es: ~(date)"
+echo "Hola Mundo
+echo "La fecha y hora es: ~(date)"
