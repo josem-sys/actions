@@ -2,6 +2,13 @@
 
 Todos los cambios notables en este proyecto se documentarán en este archivo.
 
+## [1.1.0] - 2026-04-28
+
+### Added
+- Nueva sección de reporte en `script.sh` (usuario y hostname).
+### Changed
+- Limpieza y optimización del archivo README.md.
+
 ## [1.0.0] - 2026-04-28
 
 ### Added

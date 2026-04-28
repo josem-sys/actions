@@ -1,3 +1,9 @@
 #!/bin/bash
+echo "=============================="
+echo "      REPORTE DE SISTEMA      "
+echo "=============================="
 echo "Hola Mundo"
-echo "La fecha y hora es: ~(date)"
+echo "Fecha y hora: $(date)"
+echo "Usuario actual: $(whoami)"
+echo "Nombre del equipo: $(hostname)"
+echo "=============================="
